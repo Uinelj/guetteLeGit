@@ -1,0 +1,21 @@
+ENTITY flipflop IS
+	PORT (
+		D, S, R, C : IN STD_LOGIC ;
+		S_Out : OUT STD_LOGIC
+	);
+END ENTITY flipflop ;
+
+ARCHITECTURE Behavior_ff OF flipflop IS
+BEGIN
+	PROCESS (clk);
+	BEGIN
+		IF (R ='0') THEN
+			S_Out <= '0' ;
+		ELSIF (S = '1') THEN
+			S_Out <= '1' ;
+		ELSIF (clk event AND clk='1') THEN
+			S_Out <= D ;
+		END IF;
+	END ;
+END Behavior_ffs;
+

@@ -1,0 +1,41 @@
+ENTITY hexa IS
+	PORT (
+		 SW : IN STD_LOGIC(2 TO 0) ;
+		HEX0 : OUT STD_LOGIC_VECTOR (6 DOWNTO 0)
+	);
+END ENTITY hexa ;
+
+ARCHITECTURE Behavior_hexa OF haxa IS
+BEGIN
+IF SW(0)='0' AND SW(0)=0 AND SW(0)=0
+THEN 
+HEX0(0)=1;
+HEX0(1)=1;
+HEX0(2)=1;
+HEX0(3)=1;
+HEX0(4)=1;
+HEX0(5)=1;
+HEX0(6)=0;
+ELSE IF SW(0)='0' AND SW(0)=0 AND SW(0)=1
+THEN
+HEX0(0)=0;
+HEX0(1)=1;
+HEX0(2)=1;
+HEX0(3)=0;
+HEX0(4)=0;
+HEX0(5)=0;
+HEX0(6)=0;
+ELSE IF SW(0)='0' AND SW(0)=1 AND SW(0)=0
+THEN
+HEX0(0)=0;
+HEX0(1)=1;
+HEX0(2)=1;
+HEX0(3)=0;
+HEX0(4)=0;
+HEX0(5)=0;
+HEX0(6)=0;
+
+
+ELSE IF SW(1)
+END Behavior_hexa;
+
