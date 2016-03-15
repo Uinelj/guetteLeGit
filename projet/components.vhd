@@ -29,10 +29,8 @@ ARCHITECTURE Behaviour OF Full_Adder IS
 	SIGNAL resultat : UNSIGNED(1 DOWNTO 0);
 	
 BEGIN
-
-	resultat <= ('0' & a) + ('0' & b) + ('0' & cin);
-	s <= resultat(0);
-	cout <= resultat(1);
+	s <= a XOR b XOR cin;
+	cout <= (a AND b) OR (cin AND a) OR (cin AND b);
 
 END Behaviour ;
 
