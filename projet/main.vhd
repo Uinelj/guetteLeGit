@@ -1,0 +1,15 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY test IS
+PORT (
+		SW : IN STD_LOGIC_VECTOR (6 DOWNTO 0);
+		HEX0 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0)
+		);
+END test;
+
+ARCHITECTURE main OF test IS 
+	
+BEGIN
+	HEX0 <= SW ;
+END main ;

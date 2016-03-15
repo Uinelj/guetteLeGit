@@ -1,0 +1,4 @@
+ARCHITECTURE Behaviour OF VHDLtest IS
+BEGIN
+LEDR<= SW;
+END Behaviour;

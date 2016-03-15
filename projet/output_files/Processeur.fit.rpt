@@ -1,5 +1,5 @@
 Fitter report for Processeur
-Mon Feb 08 13:30:39 2016
+Mon Feb 15 15:53:58 2016
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -56,10 +56,10 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Mon Feb 08 13:30:39 2016           ;
+; Fitter Status                      ; Successful - Mon Feb 15 15:53:58 2016           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; Processeur                                      ;
-; Top-level Entity Name              ; VHDLtest                                        ;
+; Top-level Entity Name              ; test                                            ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C35F672C6                                    ;
 ; Timing Models                      ; Final                                           ;
@@ -67,7 +67,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 0 / 33,216 ( 0 % )                              ;
 ;     Dedicated logic registers      ; 0 / 33,216 ( 0 % )                              ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 36 / 475 ( 8 % )                                ;
+; Total pins                         ; 14 / 475 ( 3 % )                                ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 483,840 ( 0 % )                             ;
 ; Embedded Multiplier 9-bit elements ; 0 / 70 ( 0 % )                                  ;
@@ -317,13 +317,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Location         ;                ;              ; GPIO_1[7]     ; PIN_M21         ; QSF Assignment ;
 ; Location         ;                ;              ; GPIO_1[8]     ; PIN_M24         ; QSF Assignment ;
 ; Location         ;                ;              ; GPIO_1[9]     ; PIN_M25         ; QSF Assignment ;
-; Location         ;                ;              ; HEX0[0]       ; PIN_AF10        ; QSF Assignment ;
-; Location         ;                ;              ; HEX0[1]       ; PIN_AB12        ; QSF Assignment ;
-; Location         ;                ;              ; HEX0[2]       ; PIN_AC12        ; QSF Assignment ;
-; Location         ;                ;              ; HEX0[3]       ; PIN_AD11        ; QSF Assignment ;
-; Location         ;                ;              ; HEX0[4]       ; PIN_AE11        ; QSF Assignment ;
-; Location         ;                ;              ; HEX0[5]       ; PIN_V14         ; QSF Assignment ;
-; Location         ;                ;              ; HEX0[6]       ; PIN_V13         ; QSF Assignment ;
 ; Location         ;                ;              ; HEX1[0]       ; PIN_V20         ; QSF Assignment ;
 ; Location         ;                ;              ; HEX1[1]       ; PIN_V21         ; QSF Assignment ;
 ; Location         ;                ;              ; HEX1[2]       ; PIN_W21         ; QSF Assignment ;
@@ -403,6 +396,24 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Location         ;                ;              ; LEDG[6]       ; PIN_AA20        ; QSF Assignment ;
 ; Location         ;                ;              ; LEDG[7]       ; PIN_Y18         ; QSF Assignment ;
 ; Location         ;                ;              ; LEDG[8]       ; PIN_Y12         ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[0]       ; PIN_AE23        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[10]      ; PIN_AA13        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[11]      ; PIN_AC14        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[12]      ; PIN_AD15        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[13]      ; PIN_AE15        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[14]      ; PIN_AF13        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[15]      ; PIN_AE13        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[16]      ; PIN_AE12        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[17]      ; PIN_AD12        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[1]       ; PIN_AF23        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[2]       ; PIN_AB21        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[3]       ; PIN_AC22        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[4]       ; PIN_AD22        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[5]       ; PIN_AD23        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[6]       ; PIN_AD21        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[7]       ; PIN_AC21        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[8]       ; PIN_AA14        ; QSF Assignment ;
+; Location         ;                ;              ; LEDR[9]       ; PIN_Y13         ; QSF Assignment ;
 ; Location         ;                ;              ; OTG_ADDR[0]   ; PIN_K7          ; QSF Assignment ;
 ; Location         ;                ;              ; OTG_ADDR[1]   ; PIN_F2          ; QSF Assignment ;
 ; Location         ;                ;              ; OTG_CS_N      ; PIN_F1          ; QSF Assignment ;
@@ -478,6 +489,17 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Location         ;                ;              ; SRAM_OE_N     ; PIN_AD10        ; QSF Assignment ;
 ; Location         ;                ;              ; SRAM_UB_N     ; PIN_AF9         ; QSF Assignment ;
 ; Location         ;                ;              ; SRAM_WE_N     ; PIN_AE10        ; QSF Assignment ;
+; Location         ;                ;              ; SW[10]        ; PIN_N1          ; QSF Assignment ;
+; Location         ;                ;              ; SW[11]        ; PIN_P1          ; QSF Assignment ;
+; Location         ;                ;              ; SW[12]        ; PIN_P2          ; QSF Assignment ;
+; Location         ;                ;              ; SW[13]        ; PIN_T7          ; QSF Assignment ;
+; Location         ;                ;              ; SW[14]        ; PIN_U3          ; QSF Assignment ;
+; Location         ;                ;              ; SW[15]        ; PIN_U4          ; QSF Assignment ;
+; Location         ;                ;              ; SW[16]        ; PIN_V1          ; QSF Assignment ;
+; Location         ;                ;              ; SW[17]        ; PIN_V2          ; QSF Assignment ;
+; Location         ;                ;              ; SW[7]         ; PIN_C13         ; QSF Assignment ;
+; Location         ;                ;              ; SW[8]         ; PIN_B13         ; QSF Assignment ;
+; Location         ;                ;              ; SW[9]         ; PIN_A13         ; QSF Assignment ;
 ; Location         ;                ;              ; TCK           ; PIN_D14         ; QSF Assignment ;
 ; Location         ;                ;              ; TCS           ; PIN_A14         ; QSF Assignment ;
 ; Location         ;                ;              ; TDI           ; PIN_B14         ; QSF Assignment ;
@@ -530,8 +552,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Location         ;                ;              ; VGA_R[9]      ; PIN_E10         ; QSF Assignment ;
 ; Location         ;                ;              ; VGA_SYNC      ; PIN_B7          ; QSF Assignment ;
 ; Location         ;                ;              ; VGA_VS        ; PIN_D8          ; QSF Assignment ;
-; Current Strength ; VHDLtest       ;              ; I2C_SCLK      ; MAXIMUM CURRENT ; QSF Assignment ;
-; Current Strength ; VHDLtest       ;              ; I2C_SDAT      ; MAXIMUM CURRENT ; QSF Assignment ;
+; Current Strength ; test           ;              ; I2C_SCLK      ; MAXIMUM CURRENT ; QSF Assignment ;
+; Current Strength ; test           ;              ; I2C_SDAT      ; MAXIMUM CURRENT ; QSF Assignment ;
 +------------------+----------------+--------------+---------------+-----------------+----------------+
 
 
@@ -541,8 +563,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Type                ; Value                  ;
 +---------------------+------------------------+
 ; Placement (by node) ;                        ;
-;     -- Requested    ; 0 / 40 ( 0.00 % )      ;
-;     -- Achieved     ; 0 / 40 ( 0.00 % )      ;
+;     -- Requested    ; 0 / 18 ( 0.00 % )      ;
+;     -- Achieved     ; 0 / 18 ( 0.00 % )      ;
 ;                     ;                        ;
 ; Routing (by net)    ;                        ;
 ;     -- Requested    ; 0 / 0 ( 0.00 % )       ;
@@ -565,7 +587,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 ; Partition Name                 ; # Nodes ; # Preserved Nodes ; Preservation Level Used ; Netlist Type Used ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
-; Top                            ; 37      ; 0                 ; N/A                     ; Source File       ;
+; Top                            ; 15      ; 0                 ; N/A                     ; Source File       ;
 ; hard_block:auto_generated_inst ; 3       ; 0                 ; N/A                     ; Source File       ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 
@@ -602,8 +624,8 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ;                                             ;                     ;
 ; Total LABs:  partially or completely used   ; 0 / 2,076 ( 0 % )   ;
 ; Virtual pins                                ; 0                   ;
-; I/O pins                                    ; 36 / 475 ( 8 % )    ;
-;     -- Clock pins                           ; 8 / 8 ( 100 % )     ;
+; I/O pins                                    ; 14 / 475 ( 3 % )    ;
+;     -- Clock pins                           ; 4 / 8 ( 50 % )      ;
 ;                                             ;                     ;
 ; Global signals                              ; 0                   ;
 ; M4Ks                                        ; 0 / 105 ( 0 % )     ;
@@ -619,8 +641,8 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; Peak interconnect usage (total/H/V)         ; 0% / 0% / 0%        ;
 ; Maximum fan-out                             ; 1                   ;
 ; Highest non-global fan-out                  ; 1                   ;
-; Total fan-out                               ; 18                  ;
-; Average fan-out                             ; 0.46                ;
+; Total fan-out                               ; 7                   ;
+; Average fan-out                             ; 0.41                ;
 +---------------------------------------------+---------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -654,7 +676,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; Total LABs:  partially or completely used   ; 0 / 2076 ( 0 % )  ; 0 / 2076 ( 0 % )               ;
 ;                                             ;                   ;                                ;
 ; Virtual pins                                ; 0                 ; 0                              ;
-; I/O pins                                    ; 36                ; 0                              ;
+; I/O pins                                    ; 14                ; 0                              ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 70 ( 0 % )    ; 0 / 70 ( 0 % )                 ;
 ; Total memory bits                           ; 0                 ; 0                              ;
 ; Total RAM block bits                        ; 0                 ; 0                              ;
@@ -666,7 +688,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ;     -- Registered Output Connections        ; 0                 ; 0                              ;
 ;                                             ;                   ;                                ;
 ; Internal Connections                        ;                   ;                                ;
-;     -- Total Connections                    ; 18                ; 0                              ;
+;     -- Total Connections                    ; 7                 ; 0                              ;
 ;     -- Registered Connections               ; 0                 ; 0                              ;
 ;                                             ;                   ;                                ;
 ; External Connections                        ;                   ;                                ;
@@ -674,8 +696,8 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ;     -- hard_block:auto_generated_inst       ; 0                 ; 0                              ;
 ;                                             ;                   ;                                ;
 ; Partition Interface                         ;                   ;                                ;
-;     -- Input Ports                          ; 18                ; 0                              ;
-;     -- Output Ports                         ; 18                ; 0                              ;
+;     -- Input Ports                          ; 7                 ; 0                              ;
+;     -- Output Ports                         ; 7                 ; 0                              ;
 ;     -- Bidir Ports                          ; 0                 ; 0                              ;
 ;                                             ;                   ;                                ;
 ; Registered Ports                            ;                   ;                                ;
@@ -694,72 +716,50 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 +---------------------------------------------+-------------------+--------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Input Pins                                                                                                                                                                                                                                                   ;
-+--------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
-; Name   ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
-+--------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
-; SW[0]  ; N25   ; 5        ; 65           ; 19           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[10] ; N1    ; 2        ; 0            ; 18           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[11] ; P1    ; 1        ; 0            ; 18           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[12] ; P2    ; 1        ; 0            ; 18           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[13] ; T7    ; 1        ; 0            ; 11           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[14] ; U3    ; 1        ; 0            ; 12           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[15] ; U4    ; 1        ; 0            ; 12           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[16] ; V1    ; 1        ; 0            ; 12           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[17] ; V2    ; 1        ; 0            ; 12           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[1]  ; N26   ; 5        ; 65           ; 19           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[2]  ; P25   ; 6        ; 65           ; 19           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[3]  ; AE14  ; 7        ; 33           ; 0            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[4]  ; AF14  ; 7        ; 33           ; 0            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[5]  ; AD13  ; 8        ; 33           ; 0            ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[6]  ; AC13  ; 8        ; 33           ; 0            ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[7]  ; C13   ; 3        ; 31           ; 36           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[8]  ; B13   ; 4        ; 31           ; 36           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; SW[9]  ; A13   ; 4        ; 31           ; 36           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-+--------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Input Pins                                                                                                                                                                                                                                                  ;
++-------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
+; Name  ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
++-------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
+; SW[0] ; N25   ; 5        ; 65           ; 19           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[1] ; N26   ; 5        ; 65           ; 19           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[2] ; P25   ; 6        ; 65           ; 19           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[3] ; AE14  ; 7        ; 33           ; 0            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[4] ; AF14  ; 7        ; 33           ; 0            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[5] ; AD13  ; 8        ; 33           ; 0            ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[6] ; AC13  ; 8        ; 33           ; 0            ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
++-------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Output Pins                                                                                                                                                                                                                                                                                                                            ;
-+----------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; Name     ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
-+----------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; LEDR[0]  ; AE23  ; 7        ; 63           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[10] ; AA13  ; 7        ; 35           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[11] ; AC14  ; 7        ; 35           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[12] ; AD15  ; 7        ; 35           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[13] ; AE15  ; 7        ; 35           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[14] ; AF13  ; 8        ; 31           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[15] ; AE13  ; 8        ; 31           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[16] ; AE12  ; 8        ; 31           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[17] ; AD12  ; 8        ; 31           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[1]  ; AF23  ; 7        ; 63           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[2]  ; AB21  ; 7        ; 63           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[3]  ; AC22  ; 7        ; 63           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[4]  ; AD22  ; 7        ; 61           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[5]  ; AD23  ; 7        ; 61           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[6]  ; AD21  ; 7        ; 61           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[7]  ; AC21  ; 7        ; 61           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[8]  ; AA14  ; 7        ; 37           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; LEDR[9]  ; Y13   ; 7        ; 37           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-+----------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Output Pins                                                                                                                                                                                                                                                                                                                           ;
++---------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
+; Name    ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
++---------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
+; HEX0[0] ; AF10  ; 8        ; 24           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
+; HEX0[1] ; AB12  ; 8        ; 24           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
+; HEX0[2] ; AC12  ; 8        ; 24           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
+; HEX0[3] ; AD11  ; 8        ; 27           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
+; HEX0[4] ; AE11  ; 8        ; 27           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
+; HEX0[5] ; V14   ; 8        ; 27           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
+; HEX0[6] ; V13   ; 8        ; 27           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 4mA              ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
++---------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 
 
-+------------------------------------------------------------+
-; I/O Bank Usage                                             ;
-+----------+------------------+---------------+--------------+
-; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
-+----------+------------------+---------------+--------------+
-; 1        ; 7 / 64 ( 11 % )  ; 3.3V          ; --           ;
-; 2        ; 3 / 59 ( 5 % )   ; 3.3V          ; --           ;
-; 3        ; 1 / 56 ( 2 % )   ; 3.3V          ; --           ;
-; 4        ; 2 / 58 ( 3 % )   ; 3.3V          ; --           ;
-; 5        ; 2 / 65 ( 3 % )   ; 3.3V          ; --           ;
-; 6        ; 2 / 59 ( 3 % )   ; 3.3V          ; --           ;
-; 7        ; 16 / 58 ( 28 % ) ; 3.3V          ; --           ;
-; 8        ; 6 / 56 ( 11 % )  ; 3.3V          ; --           ;
-+----------+------------------+---------------+--------------+
++-----------------------------------------------------------+
+; I/O Bank Usage                                            ;
++----------+-----------------+---------------+--------------+
+; I/O Bank ; Usage           ; VCCIO Voltage ; VREF Voltage ;
++----------+-----------------+---------------+--------------+
+; 1        ; 0 / 64 ( 0 % )  ; 3.3V          ; --           ;
+; 2        ; 2 / 59 ( 3 % )  ; 3.3V          ; --           ;
+; 3        ; 0 / 56 ( 0 % )  ; 3.3V          ; --           ;
+; 4        ; 0 / 58 ( 0 % )  ; 3.3V          ; --           ;
+; 5        ; 2 / 65 ( 3 % )  ; 3.3V          ; --           ;
+; 6        ; 2 / 59 ( 3 % )  ; 3.3V          ; --           ;
+; 7        ; 2 / 58 ( 3 % )  ; 3.3V          ; --           ;
+; 8        ; 9 / 56 ( 16 % ) ; 3.3V          ; --           ;
++----------+-----------------+---------------+--------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -778,7 +778,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; A10      ; 447        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A11      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; A12      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; A13      ; 430        ; 4        ; SW[9]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; A13      ; 430        ; 4        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; A14      ; 427        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A15      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; A16      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -803,8 +803,8 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; AA10     ; 153        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AA11     ; 155        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AA12     ; 179        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AA13     ; 192        ; 7        ; LEDR[10]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AA14     ; 194        ; 7        ; LEDR[8]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AA13     ; 192        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; AA14     ; 194        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AA15     ; 197        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AA16     ; 209        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AA17     ; 219        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -828,7 +828,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; AB9      ;            ; 8        ; VCCIO8                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AB10     ; 154        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AB11     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; AB12     ; 171        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; AB12     ; 171        ; 8        ; HEX0[1]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AB13     ;            ; 8        ; VCCIO8                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AB14     ;            ; 7        ; VCCIO7                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AB15     ; 198        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -837,7 +837,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; AB18     ; 215        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AB19     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AB20     ; 225        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AB21     ; 242        ; 7        ; LEDR[2]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AB21     ; 242        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AB22     ;            ; 7        ; VCCIO7                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AB23     ; 258        ; 6        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; AB24     ; 257        ; 6        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -854,17 +854,17 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; AC9      ; 163        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC10     ; 164        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC11     ; 168        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AC12     ; 172        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; AC12     ; 172        ; 8        ; HEX0[2]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AC13     ; 185        ; 8        ; SW[6]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AC14     ; 191        ; 7        ; LEDR[11]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AC14     ; 191        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC15     ; 199        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC16     ; 202        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; AC17     ; 207        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC18     ; 216        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC19     ; 222        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC20     ; 226        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AC21     ; 237        ; 7        ; LEDR[7]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AC22     ; 241        ; 7        ; LEDR[3]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AC21     ; 237        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; AC22     ; 241        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC23     ; 245        ; 6        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; AC24     ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; AC25     ; 260        ; 6        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -879,19 +879,19 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; AD8      ; 149        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD9      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AD10     ; 167        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AD11     ; 173        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AD12     ; 181        ; 8        ; LEDR[17]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AD11     ; 173        ; 8        ; HEX0[3]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AD12     ; 181        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD13     ; 186        ; 8        ; SW[5]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AD14     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; AD15     ; 190        ; 7        ; LEDR[12]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AD15     ; 190        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD16     ; 201        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD17     ; 208        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD18     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AD19     ; 221        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD20     ;            ; 7        ; VCCIO7                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; AD21     ; 238        ; 7        ; LEDR[6]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AD22     ; 240        ; 7        ; LEDR[4]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AD23     ; 239        ; 7        ; LEDR[5]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AD21     ; 238        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; AD22     ; 240        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; AD23     ; 239        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD24     ; 249        ; 6        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; AD25     ; 248        ; 6        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; AD26     ;            ; 6        ; VCCIO6                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -905,11 +905,11 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; AE8      ; 159        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE9      ; 165        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE10     ; 169        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AE11     ; 174        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AE12     ; 182        ; 8        ; LEDR[16]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AE13     ; 183        ; 8        ; LEDR[15]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AE11     ; 174        ; 8        ; HEX0[4]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AE12     ; 182        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; AE13     ; 183        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE14     ; 188        ; 7        ; SW[3]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AE15     ; 189        ; 7        ; LEDR[13]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AE15     ; 189        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE16     ; 200        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE17     ; 206        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE18     ; 212        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -917,7 +917,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; AE20     ; 224        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE21     ; 228        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE22     ; 236        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AE23     ; 244        ; 7        ; LEDR[0]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AE23     ; 244        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE24     ; 247        ; 6        ; ~LVDS150p/nCEO~                          ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; AE25     ; 246        ; 6        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; AE26     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -929,10 +929,10 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; AF7      ; 158        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AF8      ; 160        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AF9      ; 166        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AF10     ; 170        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; AF10     ; 170        ; 8        ; HEX0[0]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AF11     ;            ; 8        ; VCCIO8                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AF12     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; AF13     ; 184        ; 8        ; LEDR[14]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AF13     ; 184        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AF14     ; 187        ; 7        ; SW[4]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AF15     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AF16     ;            ; 7        ; VCCIO7                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -942,7 +942,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; AF20     ; 223        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AF21     ; 227        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AF22     ; 235        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AF23     ; 243        ; 7        ; LEDR[1]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; AF23     ; 243        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AF24     ;            ; 7        ; VCCIO7                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AF25     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; B1       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -957,7 +957,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; B10      ; 448        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B11      ; 435        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B12      ; 433        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; B13      ; 429        ; 4        ; SW[8]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; B13      ; 429        ; 4        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; B14      ; 428        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B15      ; 420        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B16      ; 419        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -983,7 +983,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; C10      ; 450        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C11      ; 436        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C12      ; 434        ; 3        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; C13      ; 431        ; 3        ; SW[7]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; C13      ; 431        ; 3        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; C14      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; C15      ; 421        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C16      ; 418        ; 4        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1231,7 +1231,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; M24      ; 313        ; 5        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M25      ; 312        ; 5        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M26      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; N1       ; 65         ; 2        ; SW[10]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; N1       ; 65         ; 2        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; N2       ; 64         ; 2        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; N3       ; 62         ; 2        ; ^DATA0                                   ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; N4       ; 63         ; 2        ; ^nCE                                     ;        ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1257,8 +1257,8 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; N24      ; 310        ; 5        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; N25      ; 309        ; 5        ; SW[0]                                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; N26      ; 308        ; 5        ; SW[1]                                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; P1       ; 68         ; 1        ; SW[11]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; P2       ; 67         ; 1        ; SW[12]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; P1       ; 68         ; 1        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; P2       ; 67         ; 1        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; P3       ; 69         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; P4       ; 70         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; P5       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -1315,7 +1315,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; T4       ; 83         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; T5       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; T6       ; 93         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; T7       ; 92         ; 1        ; SW[13]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; T7       ; 92         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; T8       ; 111        ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; T9       ; 76         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; T10      ; 75         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1337,8 +1337,8 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; T26      ;            ; 6        ; VCCIO6                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; U1       ; 85         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; U2       ; 84         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; U3       ; 88         ; 1        ; SW[14]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; U4       ; 89         ; 1        ; SW[15]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; U3       ; 88         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; U4       ; 89         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; U5       ; 100        ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; U6       ; 98         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; U7       ; 99         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1361,8 +1361,8 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; U24      ; 283        ; 6        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; U25      ; 285        ; 6        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; U26      ; 286        ; 6        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; V1       ; 90         ; 1        ; SW[16]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; V2       ; 91         ; 1        ; SW[17]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; V1       ; 90         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; V2       ; 91         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; V3       ; 95         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; V4       ; 94         ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; V5       ; 104        ; 1        ; RESERVED_INPUT                           ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1373,8 +1373,8 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; V10      ; 141        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; V11      ; 177        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; V12      ;            ; 8        ; VCCIO8                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; V13      ; 176        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; V14      ; 175        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; V13      ; 176        ; 8        ; HEX0[6]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; V14      ; 175        ; 8        ; HEX0[5]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; V15      ;            ; 7        ; VCCIO7                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; V16      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; V17      ; 218        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1425,7 +1425,7 @@ The pin-out file can be found in C:/Users/A/Documents/GitHub/guetteLeGit/projet/
 ; Y10      ; 146        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; Y11      ; 156        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; Y12      ; 180        ; 8        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; Y13      ; 193        ; 7        ; LEDR[9]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; Y13      ; 193        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; Y14      ; 195        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; Y15      ; 196        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; Y16      ; 210        ; 7        ; RESERVED_INPUT                           ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1485,53 +1485,31 @@ Note: User assignments will override these defaults. The user specified values a
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M4Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
-; |VHDLtest                  ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 36   ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |VHDLtest           ; work         ;
+; |test                      ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 14   ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |test               ; work         ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+-----------------------------------------------------------------------------------+
-; Delay Chain Summary                                                               ;
-+----------+----------+---------------+---------------+-----------------------+-----+
-; Name     ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ;
-+----------+----------+---------------+---------------+-----------------------+-----+
-; LEDR[0]  ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[1]  ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[2]  ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[3]  ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[4]  ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[5]  ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[6]  ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[7]  ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[8]  ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[9]  ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[10] ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[11] ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[12] ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[13] ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[14] ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[15] ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[16] ; Output   ; --            ; --            ; --                    ; --  ;
-; LEDR[17] ; Output   ; --            ; --            ; --                    ; --  ;
-; SW[0]    ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
-; SW[1]    ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
-; SW[2]    ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
-; SW[3]    ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
-; SW[4]    ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
-; SW[5]    ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
-; SW[6]    ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
-; SW[7]    ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
-; SW[8]    ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
-; SW[9]    ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
-; SW[10]   ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
-; SW[11]   ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
-; SW[12]   ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
-; SW[13]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW[14]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW[15]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW[16]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW[17]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-+----------+----------+---------------+---------------+-----------------------+-----+
++----------------------------------------------------------------------------------+
+; Delay Chain Summary                                                              ;
++---------+----------+---------------+---------------+-----------------------+-----+
+; Name    ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ;
++---------+----------+---------------+---------------+-----------------------+-----+
+; HEX0[0] ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[1] ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[2] ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[3] ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[4] ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[5] ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[6] ; Output   ; --            ; --            ; --                    ; --  ;
+; SW[0]   ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
+; SW[1]   ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
+; SW[2]   ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
+; SW[3]   ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
+; SW[4]   ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
+; SW[5]   ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
+; SW[6]   ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
++---------+----------+---------------+---------------+-----------------------+-----+
 
 
 +---------------------------------------------------+
@@ -1546,49 +1524,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SW[4]               ;                   ;         ;
 ; SW[5]               ;                   ;         ;
 ; SW[6]               ;                   ;         ;
-; SW[7]               ;                   ;         ;
-; SW[8]               ;                   ;         ;
-; SW[9]               ;                   ;         ;
-; SW[10]              ;                   ;         ;
-; SW[11]              ;                   ;         ;
-; SW[12]              ;                   ;         ;
-; SW[13]              ;                   ;         ;
-;      - LEDR[13]     ; 0                 ; 6       ;
-; SW[14]              ;                   ;         ;
-;      - LEDR[14]     ; 0                 ; 6       ;
-; SW[15]              ;                   ;         ;
-;      - LEDR[15]     ; 1                 ; 6       ;
-; SW[16]              ;                   ;         ;
-;      - LEDR[16]     ; 1                 ; 6       ;
-; SW[17]              ;                   ;         ;
-;      - LEDR[17]     ; 1                 ; 6       ;
 +---------------------+-------------------+---------+
 
 
 +---------------------------------+
 ; Non-Global High Fan-Out Signals ;
-+--------+------------------------+
-; Name   ; Fan-Out                ;
-+--------+------------------------+
-; SW[17] ; 1                      ;
-; SW[16] ; 1                      ;
-; SW[15] ; 1                      ;
-; SW[14] ; 1                      ;
-; SW[13] ; 1                      ;
-; SW[12] ; 1                      ;
-; SW[11] ; 1                      ;
-; SW[10] ; 1                      ;
-; SW[9]  ; 1                      ;
-; SW[8]  ; 1                      ;
-; SW[7]  ; 1                      ;
-; SW[6]  ; 1                      ;
-; SW[5]  ; 1                      ;
-; SW[4]  ; 1                      ;
-; SW[3]  ; 1                      ;
-; SW[2]  ; 1                      ;
-; SW[1]  ; 1                      ;
-; SW[0]  ; 1                      ;
-+--------+------------------------+
++-------+-------------------------+
+; Name  ; Fan-Out                 ;
++-------+-------------------------+
+; SW[6] ; 1                       ;
+; SW[5] ; 1                       ;
+; SW[4] ; 1                       ;
+; SW[3] ; 1                       ;
+; SW[2] ; 1                       ;
+; SW[1] ; 1                       ;
+; SW[0] ; 1                       ;
++-------+-------------------------+
 
 
 +-----------------------------------------------------+
@@ -1596,13 +1547,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------+-----------------------+
 ; Other Routing Resource Type ; Usage                 ;
 +-----------------------------+-----------------------+
-; Block interconnects         ; 18 / 94,460 ( < 1 % ) ;
-; C16 interconnects           ; 22 / 3,315 ( < 1 % )  ;
-; C4 interconnects            ; 24 / 60,840 ( < 1 % ) ;
+; Block interconnects         ; 7 / 94,460 ( < 1 % )  ;
+; C16 interconnects           ; 3 / 3,315 ( < 1 % )   ;
+; C4 interconnects            ; 12 / 60,840 ( < 1 % ) ;
 ; Global clocks               ; 0 / 16 ( 0 % )        ;
 ; Local interconnects         ; 0 / 33,216 ( 0 % )    ;
-; R24 interconnects           ; 26 / 3,091 ( < 1 % )  ;
-; R4 interconnects            ; 5 / 81,294 ( < 1 % )  ;
+; R24 interconnects           ; 8 / 3,091 ( < 1 % )   ;
+; R4 interconnects            ; 7 / 81,294 ( < 1 % )  ;
 +-----------------------------+-----------------------+
 
 
@@ -1839,13 +1790,6 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "GPIO_1[7]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "GPIO_1[8]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "GPIO_1[9]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "HEX0[0]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "HEX0[1]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "HEX0[2]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "HEX0[3]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "HEX0[4]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "HEX0[5]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "HEX0[6]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "HEX1[0]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "HEX1[1]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "HEX1[2]" is assigned to location or region, but does not exist in design
@@ -1925,6 +1869,24 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "LEDG[6]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDG[7]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDG[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[10]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[11]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[12]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[13]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[14]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[15]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[16]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[17]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "LEDR[9]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "OTG_ADDR[0]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "OTG_ADDR[1]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "OTG_CS_N" is assigned to location or region, but does not exist in design
@@ -2000,6 +1962,17 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "SRAM_OE_N" is assigned to location or region, but does not exist in design
     Warning (15706): Node "SRAM_UB_N" is assigned to location or region, but does not exist in design
     Warning (15706): Node "SRAM_WE_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[10]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[11]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[12]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[13]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[14]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[15]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[16]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[17]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "SW[9]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "TCK" is assigned to location or region, but does not exist in design
     Warning (15706): Node "TCS" is assigned to location or region, but does not exist in design
     Warning (15706): Node "TDI" is assigned to location or region, but does not exist in design
@@ -2060,41 +2033,30 @@ Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X33_Y0 to location X43_Y11
+    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X22_Y0 to location X32_Y11
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.13 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.06 seconds.
 Info (306004): Started post-fitting delay annotation
-Warning (306006): Found 18 output pins without output pin load capacitance assignment
-    Info (306007): Pin "LEDR[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[8]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[9]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[10]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[11]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[12]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[13]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[14]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[15]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[16]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "LEDR[17]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Warning (306006): Found 7 output pins without output pin load capacitance assignment
+    Info (306007): Pin "HEX0[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
 Info (306005): Delay annotation completed successfully
 Info (306004): Started post-fitting delay annotation
 Info (306005): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/Users/A/Documents/GitHub/guetteLeGit/projet/output_files/Processeur.fit.smsg
-Info: Quartus II 64-Bit Fitter was successful. 0 errors, 397 warnings
+Info: Quartus II 64-Bit Fitter was successful. 0 errors, 419 warnings
     Info: Peak virtual memory: 759 megabytes
-    Info: Processing ended: Mon Feb 08 13:30:40 2016
+    Info: Processing ended: Mon Feb 15 15:53:59 2016
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:05
 
