@@ -98,12 +98,12 @@ BEGIN
 	
 	END GENERATE ligne;
 	
-	s(0) <= memS(0)(0);
-	s(1) <= memS(1)(0);
-	s(2) <= memS(2)(0);
-	s(4) <= memS(3)(1);
-	s(5) <= memS(3)(2);
-	s(7) <= memS(3)(4);
+	--s(0) <= memS(0)(0);
+	--s(1) <= memS(1)(0);
+	--s(2) <= memS(2)(0);
+	--s(4) <= memS(3)(1);
+	--s(5) <= memS(3)(2);
+	--s(7) <= memS(3)(4);
 	--S(i) <= memS(i)(0);
 	--S(0) <= memS(0)(0);
 END behaviour ;
