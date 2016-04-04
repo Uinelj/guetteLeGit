@@ -6,11 +6,11 @@ USE ieee.std_logic_1164.all ;
 -- On a besoin de : Additionneur, soustracteur, and, or, not, mux 8 vers 1.
 -- ------------
 -- Mux 8 vers 1 : 
--- 000 = a + b
--- 001 = a - b
--- 010 = a AND b
--- 011 = a OR b
--- 100 = NOT a
+-- 000 = a AND b
+-- 001 = a OR b
+-- 010 = NOT a
+-- 011 = a - b
+-- 100 = a + b
 
 ENTITY alu_16bits IS 
 	PORT(
