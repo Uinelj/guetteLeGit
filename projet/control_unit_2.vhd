@@ -14,4 +14,4 @@ END fsm ;
 ARCHITECTURE bhv_fsm OF fsm IS
 	
 
-END bhv_fsm;	
+END bhv_fsm;

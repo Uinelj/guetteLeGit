@@ -7,7 +7,7 @@ ENTITY or_16bits IS
     	a, b: IN STD_LOGIC_VECTOR(15 DOWNTO 0);
         s: OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
     );
-END and_16bits;	
+END or_16bits;	
 
 ARCHITECTURE behavior_or_16bits OF or_16bits IS
 BEGIN

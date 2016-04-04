@@ -1,7 +1,7 @@
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 
-entity FSM_control_unit is
+entity control_unit is
 	port (
 		INSTRUCTION : in std_logic_vector(8 downto 0);
 		RUN, RESET, CLOCK : in std_logic;
@@ -11,9 +11,9 @@ entity FSM_control_unit is
 		FETCH : out std_logic;
 		SEL_MUX : out std_logic_vector(3 downto 0)
 	);
-end entity FSM_control_unit;
+end entity control_unit;
 
-architecture Behaviour_control_unit of FSM_control_unit is
+architecture control_unit of control_unit is
 
 	-- SIGNALS
 	signal SEL_RX: std_logic_vector(3 downto 0);
@@ -206,4 +206,4 @@ begin
 		end if;
 	end process;
 
-end architecture Behaviour_control_unit;
+end architecture control_unit;

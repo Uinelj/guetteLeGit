@@ -3,15 +3,16 @@ USE ieee.std_logic_1164.all ;
 
 ENTITY guette_le_cpu IS
 	PORT(
-		Din:			IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+		Din:						IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 		Run, Reset_n, Clock:	IN STD_LOGIC;
-		Bus:			OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
-		Done:			OUT STD_LOGIC		
+		Bus:						OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+		Done:						OUT STD_LOGIC		
 	);
 END guette_le_cpu;
 
 ARCHITECTURE bhv_guette_le_cpu OF guette_le_git IS
-	COMPONENT mux
+	-- Rappel du multiplexeur 16 entrées
+	COMPONENT mux_16
 		port(
 		in0: in std_logic_vector(15 downto 0);
 		in1: in std_logic_vector(15 downto 0);
@@ -33,14 +34,16 @@ ARCHITECTURE bhv_guette_le_cpu OF guette_le_git IS
 		sel: in std_logic_vector(3 downto 0));
 	END COMPONENT;
 
-	COMPONENT alu
+	-- Rappel de l'ALU 16 bits.
+	COMPONENT alu_16bits
 		PORT(
-    			a, b: 	IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-			sel: 	IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+    			a, b: IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+				sel: 	IN STD_LOGIC_VECTOR(2 DOWNTO 0);
         		s: 	OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
     		);
 	END COMPONENT ;
 
+	-- Rappel du registre 16 bits.
 	COMPONENT registre
 		generic (n: positive:=16);
 		PORT (

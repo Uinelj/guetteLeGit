@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Processeur
-Mon Apr 04 13:51:33 2016
+Mon Apr 04 16:10:28 2016
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,10 +36,10 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Mon Apr 04 13:51:33 2016               ;
+; Analysis & Synthesis Status        ; Failed - Mon Apr 04 16:10:28 2016               ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; Processeur                                      ;
-; Top-level Entity Name              ; test                                            ;
+; Top-level Entity Name              ; alu_16bits                                      ;
 ; Family                             ; Cyclone II                                      ;
 ; Total logic elements               ; N/A until Partition Merge                       ;
 ;     Total combinational functions  ; N/A until Partition Merge                       ;
@@ -59,7 +59,7 @@ applicable agreement for further details.
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                     ; EP2C35F672C6       ;                    ;
-; Top-level entity name                                                      ; test               ; Processeur         ;
+; Top-level entity name                                                      ; alu_16bits         ; Processeur         ;
 ; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -155,27 +155,69 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Apr 04 13:51:30 2016
+    Info: Processing started: Mon Apr 04 16:10:27 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Processeur -c Processeur
 Warning (20028): Parallel compilation is not licensed and has been disabled
-Info (12021): Found 8 design units, including 4 entities, in source file components.vhd
-    Info (12022): Found design unit 1: VHDLtest-Behaviour
-    Info (12022): Found design unit 2: Full_Adder-Behaviour
-    Info (12022): Found design unit 3: Full_Adder_4-behaviour_FA4
-    Info (12022): Found design unit 4: mult-Behaviour
-    Info (12023): Found entity 1: VHDLtest
-    Info (12023): Found entity 2: Full_Adder
-    Info (12023): Found entity 3: Full_Adder_4
-    Info (12023): Found entity 4: mult
-Info (12021): Found 2 design units, including 1 entities, in source file main.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file soustracteur.vhd
+    Info (12022): Found design unit 1: soustracteur-behavior_soustracteur
+    Info (12023): Found entity 1: soustracteur
+Info (12021): Found 2 design units, including 1 entities, in source file register.vhd
+    Info (12022): Found design unit 1: registre-Bhv_reg
+    Info (12023): Found entity 1: registre
+Info (12021): Found 2 design units, including 1 entities, in source file proc_faj.vhd
+    Info (12022): Found design unit 1: proc_faj-behavior_part1
+    Info (12023): Found entity 1: proc_faj
+Info (12021): Found 2 design units, including 1 entities, in source file or.vhd
+    Info (12022): Found design unit 1: or_16bits-behavior_or_16bits
+    Info (12023): Found entity 1: or_16bits
+Info (12021): Found 2 design units, including 1 entities, in source file not_a.vhd
+    Info (12022): Found design unit 1: not_16bits-behavior_not_16bits
+    Info (12023): Found entity 1: not_16bits
+Info (12021): Found 2 design units, including 1 entities, in source file mux16b_16_1_tb.vhd
+    Info (12022): Found design unit 1: mux_16-rtl_16
+    Info (12023): Found entity 1: mux_16
+Info (12021): Found 2 design units, including 1 entities, in source file mux16b_8_1_tb.vhd
+    Info (12022): Found design unit 1: testbench-tb
+    Info (12023): Found entity 1: testbench
+Warning (12090): Entity "mux" obtained from "mux16b_8_1.vhd" instead of from Quartus II megafunction library
+Info (12021): Found 2 design units, including 1 entities, in source file mux16b_8_1.vhd
+    Info (12022): Found design unit 1: mux-rtl
+    Info (12023): Found entity 1: mux
+Error (10500): VHDL syntax error at guette_le_cpu.vhd(8) near text "Bus";  expecting an identifier ("bus" is a reserved keyword), or "constant", or "file", or "signal", or "variable" File: C:/Users/A/Documents/GitHub/guetteLeGit/projet/guette_le_cpu.vhd Line: 8
+Error (10523): Ignored construct guette_le_cpu at guette_le_cpu.vhd(4) due to previous errors File: C:/Users/A/Documents/GitHub/guetteLeGit/projet/guette_le_cpu.vhd Line: 4
+Error (10500): VHDL syntax error at guette_le_cpu.vhd(65) near text ",";  expecting "(", or an identifier, or  unary operator File: C:/Users/A/Documents/GitHub/guetteLeGit/projet/guette_le_cpu.vhd Line: 65
+Error (10500): VHDL syntax error at guette_le_cpu.vhd(65) near text ")";  expecting "(", or an identifier, or  unary operator File: C:/Users/A/Documents/GitHub/guetteLeGit/projet/guette_le_cpu.vhd Line: 65
+Info (12021): Found 0 design units, including 0 entities, in source file guette_le_cpu.vhd
+Info (12021): Found 6 design units, including 3 entities, in source file full_adder.vhd
+    Info (12022): Found design unit 1: full_adder_1bit-behavior_fa
+    Info (12022): Found design unit 2: full_adder-behavior
+    Info (12022): Found design unit 3: full_adder_nbits-behavior_full_adder_nbits
+    Info (12023): Found entity 1: full_adder_1bit
+    Info (12023): Found entity 2: full_adder
+    Info (12023): Found entity 3: full_adder_nbits
+Info (12021): Found 2 design units, including 1 entities, in source file fsm.vhd
     Info (12022): Found design unit 1: control_unit-control_unit
     Info (12023): Found entity 1: control_unit
+Warning (12018): Entity "dlatch" will be ignored because it conflicts with Quartus II primitive name
+Info (12021): Found 2 design units, including 1 entities, in source file dlatch.vhd
+    Info (12022): Found design unit 1: dlatch-rtl
+Info (12021): Found 2 design units, including 1 entities, in source file complement_a_2.vhd
+    Info (12022): Found design unit 1: ca2-behavior_ca2
+    Info (12023): Found entity 1: ca2
+Info (12021): Found 2 design units, including 1 entities, in source file and.vhd
+    Info (12022): Found design unit 1: and_16bits-behavior_and_16bits
+    Info (12023): Found entity 1: and_16bits
+Info (12021): Found 2 design units, including 1 entities, in source file alu.vhd
+    Info (12022): Found design unit 1: alu_16bits-behavior_alu_16bits
+    Info (12023): Found entity 1: alu_16bits
+Info (12021): Found 2 design units, including 1 entities, in source file main.vhd
+    Info (12022): Found design unit 1: FSM_control_unit-Behaviour_control_unit
+    Info (12023): Found entity 1: FSM_control_unit
 Warning (12019): Can't analyze file -- file ../../../../Desktop/Processeur.vhd is missing
-Error (12007): Top-level design entity "test" is undefined
-Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 1 error, 2 warnings
+Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 4 errors, 4 warnings
     Error: Peak virtual memory: 512 megabytes
-    Error: Processing ended: Mon Apr 04 13:51:33 2016
-    Error: Elapsed time: 00:00:03
+    Error: Processing ended: Mon Apr 04 16:10:28 2016
+    Error: Elapsed time: 00:00:01
     Error: Total CPU time (on all processors): 00:00:01
 
 

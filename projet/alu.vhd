@@ -24,21 +24,21 @@ ARCHITECTURE behavior_alu_16bits OF alu_16bits IS
 	COMPONENT and_16bits
 		PORT(
 			a, b:	IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-			s:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+			s:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
 		);
 	END COMPONENT;
 
 	COMPONENT or_16bits	
 		PORT(
 			a, b:	IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-			s:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+			s:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
 		);
 	END COMPONENT;
 
 	COMPONENT not_16bits
 		PORT(
 			a:	IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-			s:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+			s:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
 		);
 	END COMPONENT;
 
@@ -89,7 +89,7 @@ BEGIN
 	Calcul_Or:		or_16bits PORT MAP(a => a, b => b, s => Result_Or);
 	Calcul_Not:		not_16bits PORT MAP(a => b, s => Result_Not);
 	Calcul_Soustraction:	soustracteur PORT MAP(a => a, b => b, cout => Cout_Soustraction, s => Result_Soustraction);
-	Calcul_Addition:	full_adder_nbits PORT MAP(a => a, b => b, Cin => "0", Cout => Cout_Addition, s => Result_Addition);
+	Calcul_Addition:	full_adder_nbits PORT MAP(a => a, b => b, Cin => '0', Cout => Cout_Addition, s => Result_Addition);
 
 	Output:			mux PORT MAP(in0 => Result_And, in1 => Result_Or, in2 => Result_Not, in3 => Result_Soustraction, 							in4 => Result_Addition, in5 => "0000000000000000", in6 => "0000000000000000", in7 							=> "0000000000000000", out1 => s, sel => sel);
 END behavior_alu_16bits ;
