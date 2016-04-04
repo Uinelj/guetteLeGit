@@ -14,10 +14,10 @@ USE ieee.std_logic_1164.all ;
 
 ENTITY alu_16bits IS 
 	PORT(
-    	a, b: IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-	sel: IN STD_LOGIC_VECTOR(2 DOWNTO 0);
-        s: OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
-    );
+    		a, b: IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+		sel: IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+        	s: OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
+    	);
 END alu_16bits;	
 
 ARCHITECTURE behavior_alu_16bits OF alu_16bits IS

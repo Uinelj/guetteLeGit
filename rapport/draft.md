@@ -2,13 +2,25 @@
 
 # 1. Contexte et résumé du projet
 
-  Ce projet ce place dans le cadre de l'UE d'architecture des ordinateurs de L3 Informatique de l'Université de Cergy-Pontoise.
+  Ce projet se place dans le cadre de l'UE d'architecture des ordinateurs de L3 Informatique de l'Université de Cergy-Pontoise.
 
-  L'idée est de reprendre de projet de l'année passée, un processeur 4bits Logisim, mais de le réaliser sur 16bits sur FPGA. Cette approche fait intervenir d'autres outils (l'IDE Quartus et le langage VHDL), et est plus concrète, puisque réalisée sur du matériel.
+  L'idée est de reprendre le projet de l'année passée, un processeur 4bits Logisim, mais de le réaliser sur 16bits sur FPGA. Cette approche fait intervenir d'autres outils (l'IDE Quartus et le langage VHDL), et est plus concrète, puisque réalisée sur du matériel (FPGA).
 
 # 2. Spécification du processeur
 
-Arya et Alex je compte sur vous :)
+Le processeur travaille avec des données de 16 bits et est capable de réaliser des opérations arithmétiques simples (addition, soustraction), ainsi que des opérations logiques (AND, OR, NOT).
+
+La table des opcodes est disponible ci-dessous : 
+
+| OPCODE | Opération réalisée | Entrées | Sorties |
+|--------|--------------------|---------|---------|
+| ADD    | Addition           | 2       | 1       |
+| SUB    | Soustraction       | 2       | 1       |
+| AND    | ET Booléen         | 2       | 1       |
+| OR     | OU Booléen         | 2       | 1       |
+| NOT    | NON Booléen        | 1       | 1       |
+| MV     | Déplacement registre | 2 | 0 |
+| MVI    | Déplacement immédiat | 1 | 0 |
 
 # 3. Modules internes
 
@@ -38,3 +50,6 @@ Blablater sur le processeur, à quoi il ressemble tout ça.
 Ce projet nous a permis de découvrir plus en détail l'architecture des processeurs, mais aussi de pratiquer sur des technologies concrètes et utilisées dans le monde professionnel, tels les FPGA Altera et l'environnement de développement intégré Quartus, ainsi que le l'apprentissage du langage VHDL.
 
 Sinon, trkl ?
+
+# 7. Améliorations
+
