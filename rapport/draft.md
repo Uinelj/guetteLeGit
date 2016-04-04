@@ -19,6 +19,8 @@ La table des opcodes est disponible ci-dessous :
 | AND    | ET Booléen         | 2       | 1       |
 | OR     | OU Booléen         | 2       | 1       |
 | NOT    | NON Booléen        | 1       | 1       |
+| MV     | Déplacement registre | 2 | 0 |
+| MVI    | Déplacement immédiat | 1 | 0 |
 
 # 3. Modules internes
 
