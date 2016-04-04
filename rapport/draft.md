@@ -47,7 +47,7 @@ La table des opcodes est disponible ci-dessous :
   * __Les registres__, servant à garder les informations dont le processeur à besoin, construit sur des bascules D, des drapeaux de lecture/écriture et des bits de sélection en entrée, pour une valeur en sortie.
 
 
-  * __La FSM__ (ou Finite State Machine), qui reçoit les entrées du processeur, les analyse et envoie les bons signaux en conséquence. (ARYA)
+  * __La FSM__ (ou Finite State Machine), qui reçoit les entrées du processeur, les analyse et envoie les bons signaux en conséquence.
 
   ```
 
@@ -162,9 +162,6 @@ La table des opcodes est disponible ci-dessous :
   * __Arya__ s'est occupé de la __FSM__, mais a aussi réalisé le décodeur/afficheur,
   * __Julien__ s'est occupé des bancs de __registre__ et, dans une moindre mesure, de certaines parties de __l'ALU__.
 
-# 5. Résultat
-
-Blablater sur le processeur, à quoi il ressemble tout ça.
 
 # 6. Conclusion
 
