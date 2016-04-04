@@ -28,7 +28,7 @@ ARCHITECTURE behavior_alu_16bits OF alu_16bits IS
 		);
 	END COMPONENT;
 
-	COMPONENT or_16bits
+	COMPONENT or_16bits	
 		PORT(
 			a, b:	IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 			s:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
