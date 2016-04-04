@@ -38,3 +38,6 @@ Blablater sur le processeur, à quoi il ressemble tout ça.
 Ce projet nous a permis de découvrir plus en détail l'architecture des processeurs, mais aussi de pratiquer sur des technologies concrètes et utilisées dans le monde professionnel, tels les FPGA Altera et l'environnement de développement intégré Quartus, ainsi que le l'apprentissage du langage VHDL.
 
 Sinon, trkl ?
+
+# 7. Améliorations
+
